@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*
+{
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: .2s linear;
+}
+.home
+{
+    width: 1440px;
+    height: auto;
+    background: #CABDBD;
+}
+.home .section1
+{
+    width: 100%;
+    position: relative;
+}
+.home .section1 .slide
+{
+    width: 100%;
+    height: 585px;
+    background: url(../../assets/home/bcg1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home .section1 .slide.active
+{
+    display: flex;
+}
+
+.home .section1 .slide h1
+{
+    font-weight: 700;
+    font-size: 111.207px;
+    line-height: 145px;
+    color: #FFFFFF;
+}
+.home .section1 .slide p
+{
+    font-weight: 700;
+    font-size: 58.6397px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+.home .section1 .slide span
+{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+#next-slide,
+#prev-slide
+{
+    width: 50px;
+    height: 50px;
+    background: red;
+    font-size: 18px;
+    position: absolute;
+    top: 45%;
+}
+#prev-slide
+{
+    left: 30px;
+}
+#next-slide
+{
+    right: 30px;
+}

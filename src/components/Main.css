@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none; 
+}
+
+body{
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
