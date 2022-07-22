@@ -2,7 +2,7 @@ import React from 'react';
 import "../home/home.css"
 
 
-export default function Home() {
+export  function Home() {
     return (
         <div className="home">
 

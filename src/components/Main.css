@@ -1,19 +1,127 @@
-*
-{
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
-    outline: none;
-    border: none;
     box-sizing: border-box;
-    font-family: sans-serif;
-    text-decoration: none; 
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.2s;
 }
-
-body{
+button{
+    cursor: pointer;
+}
+.wrapper
+{
     max-width: 1440px;
     width: 100%;
+    margin: 0 auto;
     height: auto;
+    background: #CABDBD;
+    position: relative;
+}
+
+/* navbar page start */
+
+.nav
+{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    /* mix-blend-mode: soft-light; */
+    backdrop-filter: blur(4px);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
+.nav .logo a
+{
+    font-size: 2rem;
+    color: #ff7700;
+    font-weight: 700;
+
+}
+.nav .links a
+{
+    font-size: 1.4rem;
+    color: #ff7700;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.nav .links a.active
+{
+    color: #fff;
+}
+
+/* navbar page end */
+
+/* result page start */
+
+.result_page
+{
+    min-height: 75vh;
+}
+
+/* result page end */
+
+/* footer page start */
+
+.footer
+{
+    width: 100%;
+    padding: 37px 20px 10px 64px;
+    background: #B75600;
+}
+.footer .top
+{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .follow
+{
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+}
+.footer .follow i
+{
+    font-size: 2rem;
+    margin: 0 5px;
+    color: #000;
+}
+.footer .top .links
+{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.footer .top .links .box
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer .top .links .box a
+{
+    font-weight: 700;
+    font-size: 20.6624px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.footer p
+{
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* footer page end */

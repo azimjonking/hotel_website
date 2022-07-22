@@ -2,6 +2,6 @@ import React from "react";
 
 export function Rooms(){
     return(
-        <div></div>
+        <div><h1>Room page</h1></div>
     )
 }
